@@ -144,7 +144,7 @@
  let vintageMonitorScrollOffsetY = 0;
 
  let bigWordState = {
-  text: "", opacity: 0, targetOpacity: 0, fadeSpeed: 0.004, lastTriggerTime: 0, nextTriggerDelay: 12000,
+  text: "", opacity: 0, targetOpacity: 0, fadeSpeed: 0.002, lastTriggerTime: 0, nextTriggerDelay: 12000,
   posx: 0.5, posy: 0.5 
  };
 
@@ -220,7 +220,7 @@
   ctx.save(); 
   // Barely visible green phosphor/amber luminescent tint to replicate retro Hercules/CGA arrays
   ctx.fillStyle = "rgba(0, 255, 170, 0.015)"; 
-  ctx.font = "9px monospace";
+  ctx.font = "11px monospace";
   
   // Continuously cycle vertical offset positions to trigger a rolling terminal script
   vintageMonitorScrollOffsetY -= 0.25; 
@@ -590,7 +590,7 @@
  document.addEventListener("DOMContentLoaded", initPortalEngine);
 </script>
   <header style="border-top: 1px solid var(--yellow); border-bottom: none; padding-top: 4px; padding-bottom: 0; margin-top: 8px; margin-bottom: 0;">
-    <div style="font-family: monospace; letter-spacing: 12px;font-size: 0.75rem; color: var(--green);"><h3>E x i s t e n c e    .  .   .    . Digital Philosophy!</h3></div>
+    <div style="font-family: monospace; letter-spacing: 12px;font-size: 0.75rem; color: var(--green);"><h3>Existenz   .  .   .   . D i g i t a l Philosophy!</h3></div>
     <div id="countdown-status-node" style="font-family: monospace; font-size: 0.75rem; color: var(--pink);">T I M E   I S   I N V I N C I B L E</div>
   </header>
 
